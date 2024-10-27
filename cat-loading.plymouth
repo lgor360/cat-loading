@@ -1,0 +1,32 @@
+[Plymouth Theme]
+Name=Cat Loading
+Description=plymouth theme with a cat from the neural network
+ModuleName=two-step
+
+[two-step]
+ScaleBackgroundImage=false
+ImageDir=/usr/share/plymouth/themes//cat-loading
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+HorizontalAlignment=0.5
+VerticalAlignment=0.55
+
+[updates]
+SuppressMessages=true
+Title=installing updates
+SubTitle=do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+Title=upgrading system
+SubTitle=do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+Title=upgrading firmware
+SubTitle=do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+Title=resetting system
+SubTitle=do not turn off your computer
